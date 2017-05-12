@@ -1,0 +1,429 @@
+body{
+    background-color: #F2FCFF;
+}
+
+.wrap{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -1px 3px 9px #888888;
+  width: 55%;
+  max-width: 900px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+}
+.city_div{
+  margin-bottom: -20px;
+  padding-bottom: 10px;
+  padding-top: 1px;
+  background-color: #00a0ac;
+  color: white;
+}
+
+.image_div{
+    margin-bottom: -4px;
+}
+
+
+.text{
+  margin-top: -2px;
+  border: 2px solid #ffffff;
+  color: #000;
+}
+
+
+.image{
+   width: 100%;
+}
+
+.city{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+
+.current{
+    padding-left: 30px;
+    color: #59b9ba;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.icon{
+    float: right;
+    clear: right;
+    margin-right: 20px;
+    margin-top: -15px;
+}
+
+
+.weather{
+     padding-left: 30px;
+     margin-top: -5px;
+     text-transform: capitalize;
+     font-weight: bold;
+     font-size: 1.25em;
+}
+
+.temp{
+    padding-left: 30px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.f_temp{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.feels_like{
+    font-size: .8em;
+    font-weight: 400;
+}
+
+.bottom_weather{
+    padding-left: 30px;
+    font-size: .9em;
+}
+
+.humid{
+    font-weight: bold;
+}
+
+.uv{
+  font-weight: bold;  
+}
+
+
+.forcast{
+    padding-left: 30px;
+    color: #59b9ba;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #fff;
+}
+
+.owl-carousel .owl-wrapper-outer{
+	    width: 101%;
+    }
+
+.forcast_time{
+    text-align: center;
+    font-size: .8em;
+}
+
+.forcast_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42px;
+}
+
+
+.forcast_temp{
+    text-align: center;
+    font-size: .95em;
+}
+
+.time{
+   font-size: .7em;
+   margin-right: 30px;
+   text-align: right;
+   padding-bottom: 10px;
+   padding-bottom: 10px;
+
+}
+
+.logo_div{
+    margin-top: 10px;
+    font-size: .7em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    height: 100px;
+    overflow: auto;
+    margin-bottom: -60px;
+}
+
+.logo_text{
+    float:right;
+    margin-top: 9px;
+    overflow: auto;
+}
+.wu_image{
+    margin-right: 30px;
+    margin-left: 20px;
+    float: right;
+    overflow: auto;
+}
+
+select{
+    clear: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    background: url('../img/down_arrow.png') no-repeat;
+    background-position: 100% 0px;
+    width: 200px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: -1px 3px 9px #888888;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+}
+
+
+#selected{
+    color: white;
+	background-color: #00a0ac;
+	letter-spacing: 2px;
+	font-size: .7em;
+    width: 27%;
+    float: left;
+    margin-left: 20%;
+    margin-right: 30px;
+}
+
+#selected_degree{
+    color: white;
+	background-color: #f28b22;
+	letter-spacing: 2px;
+	font-size: .7em;
+    float: left;
+    width: 27%;
+    margin: 0 auto;
+}
+
+
+input {
+    -webkit-appearance: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+.wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  max-width: 900px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .wrap {
+        width: 70%;
+    }
+    
+    .logo_div{
+        width: 70%;
+    }
+    
+    #selected{
+        width: 37%;
+    }
+
+    #selected_degree{
+        width: 37%;
+    }
+    select#selected{
+        margin-left: 10%;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .wrap {
+        width: 80%;
+    }
+    
+    .wrapper{
+        width:70%;
+    }
+    
+    .logo_div{
+        width: 80%;
+    }
+    
+    #selected{
+        width: 45%;
+    }
+
+    #selected_degree{
+        width: 45%;
+    }
+    select#selected{
+        margin-left: .5%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .wrap {
+        width: 90%;
+    }
+    
+    .logo_div{
+        width: 90%;
+    }
+    
+     #selected{
+        width: 35%;
+    }
+
+    #selected_degree{
+        width: 35%;
+    }
+    select#selected{
+        margin-left: 13%;
+    }
+    
+    .wrapper{
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 479px) {
+   .forcast_time{
+        font-size: .65em;
+    }
+
+    .forcast_image{
+        width: 35px;
+    }
+
+
+    .forcast_temp{
+        font-size: .8em;
+        font-weight: bold;
+    }
+    
+    
+    .owl-pagination{
+        display: none;
+    }
+    
+    .owl-buttons{
+        display: none;
+    }
+    
+    .time{
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .city{
+        padding-left: 15px;  
+    }
+    
+    .current{
+        padding-left: 15px;
+    }
+    
+    .weather{
+        padding-left: 15px;
+    }
+    
+    .temp{
+        padding-left: 15px;
+    }
+    
+    .bottom_weather{
+        padding-left: 15px;
+    }
+    
+    .forcast{
+        padding-left: 15px;
+    }
+    
+    .wrap {
+        width: 100%;
+        margin-left: -2%;
+        padding-right: 2%;
+    }
+    
+    .image{
+        width:102%;
+    }
+    
+    .city_div{
+        width: 102%;
+    }
+    
+    .owl-carousel .owl-wrapper-outer{
+	    width: 102.5%;
+    }
+   
+    
+    .icon{
+        margin-right: 0px;
+    }
+    
+    .logo_div{
+        margin-left: 1.5%;
+    }
+    html, body{
+          width: 100%;
+          margin: 0px;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 440px) {
+    
+    .logo_div{
+        width: 100%;
+    }
+    
+    
+    .city_div{
+        margin-top: -3%;
+    }
+    
+    #selected{
+        width: 44%;
+        margin-left: 90px;
+        margin-right: 20px;
+    }
+
+    #selected_degree{
+        width: 44%;
+    }
+    select#selected{
+        margin-left: 3.5%;
+    }
+    
+    select{
+        margin-bottom: 25px;
+        font-size: .75em;
+        padding-left: 8px;
+    }
+    
+    .wu_image{
+        margin-right: 5%;
+    }
+
+    
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
